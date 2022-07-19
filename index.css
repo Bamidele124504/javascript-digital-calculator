@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(59, 58, 58);
+}
+.wrapper{
+display: flex;
+flex-direction: column;
+width: 50%;
+margin: auto;
+background-color: rgb(146, 142, 142);
+text-align: center;
+height: 400px;
+justify-content: center;
+margin-top: 60px;
+}
+
+#time{
+    font-size: 5rem;
+}
+button{
+    width: 50px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+    button:hover{
+        opacity: 0.5;
+        background-color: black;
+        color: white;
+        transform: scale(1.2);
+    }
